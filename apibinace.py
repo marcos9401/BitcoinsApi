@@ -9,7 +9,7 @@ Original file is located at
 
 pip install websocket-client
 
-# Commented out IPython magic to ensure Python compatibility.
+# Contemple a magia do IPython para garantir a compatibilidade do Python.
 !wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz
 !tar -xzvf ta-lib-0.4.0-src.tar.gz
 # %cd ta-lib
@@ -18,7 +18,6 @@ pip install websocket-client
 !make install
 !pip install Ta-Lib
 import talib
-
 import websocket 
 import talib
 import numpy as np
